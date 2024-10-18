@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "src": "/json/stats.json",
+      "dest": "https://mangoice-server.up.railway.app/json/stats.json"
+    },
+    {
+      "src": "/detail",
+      "dest": "https://mangoice-server.up.railway.app/detail"
+    },
+    {
+      "src": "/map",
+      "dest": "https://mangoice-server.up.railway.app:8080/map"
+    },
+    {
+      "src": "/i",
+      "dest": "https://mangoice-server.up.railway.app/i"
+    }
+  ]
+}
